@@ -1,7 +1,7 @@
 
-# Tech-Admin | Laravel 8 + Bootstrap 4 
+# SB-Admin Starter | Laravel 8 + Bootstrap 4 
 
-Tech-Admin is Admin Panel With Preset of Roles, Permissions, ACL, User Management, Profile Management.
+SB-Admin Starter is Admin Panel With Preset of Roles, Permissions, ACL, User Management, Profile Management.
 
 
 
@@ -28,7 +28,7 @@ Tech-Admin is Admin Panel With Preset of Roles, Permissions, ACL, User Managemen
 
 ## Installation
 
-Install Tech-Admin With Simple Steps
+Install SB-Admin Starter With Simple Steps
 
 ```bash
 git clone https://github.com/lutfiihsan/sb-admin-laravel-starter.git
