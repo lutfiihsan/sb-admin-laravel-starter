@@ -30,7 +30,7 @@ Tech-Admin is Admin Panel With Preset of Roles, Permissions, ACL, User Managemen
 Install Tech-Admin With Simple Steps
 
 ```bash
-git clone https://github.com/TechTool-India/techtool-laravel-admin.git
+git clone https://github.com/lutfiihsan/sb-admin-laravel-starter.git
 cd techtool-laravel-admin
 ```
 

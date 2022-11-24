@@ -15,26 +15,11 @@ use Illuminate\Validation\Rules\Password;
 
 class UserController extends Controller
 {
-    // /**
-    //  * Create a new controller instance.
-    //  *
-    //  * @return void
-    //  */
-    // public function __construct()
-    // {
-    //     $this->middleware('auth');
-    //     $this->middleware('permission:user-list|user-create|user-edit|user-delete', ['only' => ['index']]);
-    //     $this->middleware('permission:user-create', ['only' => ['create','store', 'updateStatus']]);
-    //     $this->middleware('permission:user-edit', ['only' => ['edit','update']]);
-    //     $this->middleware('permission:user-delete', ['only' => ['delete']]);
-    // }
-
-
     /**
      * List User 
      * @param Nill
      * @return Array $user
-     * @author Shani Singh
+     * @author Lutfi Ihsan
      */
     public function index()
     {
@@ -46,12 +31,12 @@ class UserController extends Controller
      * Create User 
      * @param Nill
      * @return Array $user
-     * @author Shani Singh
+     * @author Lutfi Ihsan
      */
     public function create()
     {
         $roles = Role::all();
-       
+    
         return view('users.add', ['roles' => $roles]);
     }
 
@@ -59,7 +44,7 @@ class UserController extends Controller
      * Store User
      * @param Request $request
      * @return View Users
-     * @author Shani Singh
+     * @author Lutfi Ihsan
      */
     public function store(Request $request)
     {
@@ -108,7 +93,7 @@ class UserController extends Controller
      * Update Status Of User
      * @param Integer $status
      * @return List Page With Success
-     * @author Shani Singh
+     * @author Lutfi Ihsan
      */
     public function updateStatus($user_id, $status)
     {
@@ -147,7 +132,7 @@ class UserController extends Controller
      * Edit User
      * @param Integer $user
      * @return Collection $user
-     * @author Shani Singh
+     * @author Lutfi Ihsan
      */
     public function edit(User $user)
     {
@@ -162,7 +147,7 @@ class UserController extends Controller
      * Update User
      * @param Request $request, User $user
      * @return View Users
-     * @author Shani Singh
+     * @author Lutfi Ihsan
      */
     public function update(Request $request, User $user)
     {
@@ -210,7 +195,7 @@ class UserController extends Controller
      * Delete User
      * @param User $user
      * @return Index Users
-     * @author Shani Singh
+     * @author Lutfi Ihsan
      */
     public function delete(User $user)
     {
