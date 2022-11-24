@@ -12,6 +12,7 @@ Tech-Admin is Admin Panel With Preset of Roles, Permissions, ACL, User Managemen
 - User Management with Roles
 - Role Management
 - Permissions Management
+- Dynamic Permissions
 - Access Control List (ACL)
 - Laravel 8 + Bootstrap 4
 
@@ -31,7 +32,7 @@ Install Tech-Admin With Simple Steps
 
 ```bash
 git clone https://github.com/lutfiihsan/sb-admin-laravel-starter.git
-cd techtool-laravel-admin
+cd sb-admin-laravel-starter
 ```
 
 Install All Packages of laravel
@@ -78,4 +79,8 @@ Password - Admin@123#
 ![App Screenshot](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/5w9yy33y0fspnnl68t0m.png)
 
 ![App Screenshot](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/v5p71gck63r039mk6jix.png)
+
+## Reference
+
+[Tech Tool](https://www.facebook.com/techtoolindia)
 
