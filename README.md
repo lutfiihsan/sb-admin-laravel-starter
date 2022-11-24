@@ -79,12 +79,3 @@ Password - Admin@123#
 
 ![App Screenshot](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/v5p71gck63r039mk6jix.png)
 
-## Feedback
-
-If you have any feedback, please reach out to us at techtoolindia@gmail.com
-
-
-## Support
-
-For support, email techtoolindia@gmail.com or join our facebook chanel https://www.facebook.com/techtoolindia.
-
